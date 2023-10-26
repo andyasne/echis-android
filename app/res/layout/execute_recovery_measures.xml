@@ -19,7 +19,7 @@
             android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            app:srcCompat="@drawable/icon_color"/>
+            app:srcCompat="@drawable/icon_color_echis"/>
 
         <TextView
             android:gravity="center"
