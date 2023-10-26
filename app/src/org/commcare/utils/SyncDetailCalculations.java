@@ -20,8 +20,12 @@ import org.commcare.preferences.HiddenPreferences;
 import org.commcare.util.LogTypes;
 import org.javarosa.core.services.Logger;
 import org.javarosa.core.services.locale.Localization;
+import org.joda.time.DateTime;
 import org.joda.time.Days;
 import org.joda.time.LocalDate;
+import org.joda.time.chrono.EthiopicChronology;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -84,12 +88,20 @@ public class SyncDetailCalculations {
     public static Pair<Long, String> getLastSyncTimeAndMessage() {
         CharSequence syncTimeMessage;
         long lastSyncTime = getLastSyncTime();
+        String syncTime = "";
         if (lastSyncTime == 0) {
             syncTimeMessage = Localization.get("home.sync.message.last.never");
         } else {
-            syncTimeMessage = DateUtils.formatSameDayTime(lastSyncTime, new Date().getTime(), DateFormat.DEFAULT, DateFormat.DEFAULT);
+            syncTimeMessage = DateUtils.formatSameDayTime(lastSyncTime, new Date().getTime() , DateFormat.DEFAULT, DateFormat.DEFAULT);
+
+            DateTime dateTime= new DateTime(lastSyncTime, EthiopicChronology.getInstance());
+            DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(" dd/MM/yyyy");
+            syncTime = dateTime.toString(dateTimeFormatter);
         }
-        return new Pair<>(lastSyncTime, Localization.get("home.sync.message.last", new String[]{syncTimeMessage.toString()}));
+
+        //return new Pair<>(lastSyncTime, Localization.get("home.sync.message.last", new String[]{syncTimeMessage.toString()}));
+
+        return new Pair<>(lastSyncTime, Localization.get("home.sync.message.last", syncTime));
     }
 
 
