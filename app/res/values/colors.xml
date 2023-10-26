@@ -12,7 +12,7 @@
     <color name="translucent_grey_dark">#20959699</color>
     <color name="translucent_grey">#80D3D3D3</color>
     <color name="translucent_grey_light">#A0D3D3D3</color>
-    <color name="blue">#3867AD</color>
+    <color name="blue">#38ada7</color>
     <color name="blue_grey">#6884AD</color>
     <color name="blue_light">#7FA1D4</color>
     <color name="translucent_blue">#903867AD</color>
@@ -78,9 +78,9 @@
     <color name="cc_core_text">#181715</color>
 
     <!-- Brand -->
-    <color name="cc_brand_color">#004EBC</color>
+    <color name="cc_brand_color">#00a0bc</color>
     <color name="cc_brand_bg">#BCDEFF</color>
-    <color name="cc_brand_text">#002C5F</color>
+    <color name="cc_brand_text">#005f5f</color>
 
     <!-- Neutral -->
     <color name="cc_neutral_color">#685C53</color>
@@ -142,8 +142,8 @@
     <color name="red_500">#F44336</color>
     <color name="red_700">#D32F2F</color>
     <color name="red_900">#B71C1C</color>
-    
+
     <!-- Button colors -->
-    <color name="button_primary">#005ab2</color>
+    <color name="button_primary">#009fbc</color>
     <color name="button_disabled">#d0e3ff</color>
 </resources>

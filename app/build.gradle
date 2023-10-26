@@ -245,7 +245,7 @@ android {
 
         project.ext.COMMCARE_APP_ID = applicationId
         // set the app name
-        def applicationName = "CommCare"
+        def applicationName = "eCHIS"
         resValue "string", "application_name", applicationName
         def odkProviderStr = "org.commcare.android.provider.odk"
         manifestPlaceholders = [
@@ -379,7 +379,7 @@ android {
             buildConfigField "String", "ODK_AUTHORITY", "\"${odkProviderStr}\""
 
             // set the app name
-            def applicationName = "CommCare LTS"
+            def applicationName = "eCHIS"
             resValue "string", "application_name", applicationName
         }
 
