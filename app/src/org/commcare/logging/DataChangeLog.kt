@@ -3,8 +3,8 @@ package org.commcare.logging
 // Represents different possible DataChangeLog that can be logged to DataChangeLogger
 sealed class DataChangeLog(val message: String) {
 
-    class CommCareInstall : DataChangeLog("CommCare installed")
-    class CommCareUpdate : DataChangeLog("CommCare updated")
+    class CommCareInstall : DataChangeLog("eCHIS installed")
+    class CommCareUpdate : DataChangeLog("eCHIS updated")
     class CommCareAppInstall : DataChangeLog("App installed")
     class CommCareAppUninstall(val appName : String,val appVersion : Int) : DataChangeLog("Uninstalling App")
     class CommCareAppUpdateStaged : DataChangeLog("App update staged and starting install")
