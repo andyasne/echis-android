@@ -88,7 +88,7 @@ home.menu.disable.analytics=Opt Out of Analytics
 home.menu.pin.set=Set My PIN
 home.menu.pin.change=Change My PIN
 home.menu.update.eCHIS=Update eCHIS
-
+home.menu.update.commcare=Update eCHIS
 menu.update.from.ccz=Offline Update
 menu.update.from.hub=Update from Local Hub
 menu.update.options=Update Options
