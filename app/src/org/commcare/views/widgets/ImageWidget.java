@@ -170,6 +170,10 @@ public class ImageWidget extends QuestionWidget {
         String acq = mPrompt.getAppearanceHint();
         if (QuestionWidget.ACQUIREFIELD.equalsIgnoreCase(acq)) {
             mChooseButton.setVisibility(View.GONE);
+        } else if (QuestionWidget.NOUXFIELD.equalsIgnoreCase(acq)) {
+            mCaptureButton.setVisibility(View.GONE);
+            mChooseButton.setVisibility(View.GONE);
+            mDiscardButton.setVisibility(View.GONE);
         }
         addView(mErrorTextView);
         mErrorTextView.setVisibility(View.GONE);
@@ -218,7 +222,9 @@ public class ImageWidget extends QuestionWidget {
                     MediaWidget.playMedia(getContext(), "image/*", toDisplay.getAbsolutePath()));
 
             addView(mImageView);
-            mDiscardButton.setVisibility(View.VISIBLE);
+            if (!QuestionWidget.NOUXFIELD.equalsIgnoreCase(acq)) {
+                mDiscardButton.setVisibility(View.VISIBLE);
+            }
         }
     }
 

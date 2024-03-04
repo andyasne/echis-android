@@ -76,6 +76,7 @@ public abstract class QuestionWidget extends LinearLayout implements QuestionExt
     protected final int mQuestionFontSize;
     protected final int mAnswerFontSize;
     protected final static String ACQUIREFIELD = "acquire";
+    protected final static String NOUXFIELD = "no_ux";
 
     //the height of the "Frame" available to this widget. The frame
     //is the size of the parent that is available (it is roughly
