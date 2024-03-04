@@ -86,6 +86,7 @@ dependencies {
     implementation('org.apache.james:apache-mime4j:0.7.2') {
         exclude module: 'commons-io'
     }
+    //noinspection DuplicatePlatformClasses
     implementation('org.apache.httpcomponents:httpmime:4.5.6')
     implementation 'net.sourceforge.htmlcleaner:htmlcleaner:2.26'
     implementation 'org.jsoup:jsoup:1.15.3'
@@ -240,12 +241,12 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
         multiDexEnabled true
-        applicationId "org.commcare.dalvik"
+        applicationId 'org.commcare.dalvik'
         testNamespace "org.commcare.dalvik.test"
 
         project.ext.COMMCARE_APP_ID = applicationId
         // set the app name
-        def applicationName = "CommCare"
+        def applicationName = "eCHIS"
         resValue "string", "application_name", applicationName
         def odkProviderStr = "org.commcare.android.provider.odk"
         manifestPlaceholders = [
@@ -307,10 +308,11 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(project.ext.RELEASE_STORE_FILE)
-            storePassword project.ext.RELEASE_STORE_PASSWORD
-            keyAlias project.ext.RELEASE_KEY_ALIAS
-            keyPassword project.ext.RELEASE_KEY_PASSWORD
+            storeFile file("C:\\Users\\andya\\StudioProjects\\echis-android\\app\\keystore.jks")
+            storePassword "Root@123#"
+            keyAlias "Root"
+            keyPassword "Root@123#"
+
         }
     }
 
@@ -386,7 +388,7 @@ android {
             buildConfigField "String", "ODK_AUTHORITY", "\"${odkProviderStr}\""
 
             // set the app name
-            def applicationName = "CommCare LTS"
+            def applicationName = "eCHIS"
             resValue "string", "application_name", applicationName
         }
 
@@ -427,7 +429,7 @@ android {
             applicationIdSuffix ".debug"
             def applicationId = "org.commcare.dalvik.debug"
             project.ext.COMMCARE_APP_ID = applicationId
-            def applicationName = "CommCare Debug"
+            def applicationName = "eCHIS"
             resValue "string", "application_name", applicationName
             def odkProviderStr = "org.commcare.dalvik.debug.provider.odk"
             manifestPlaceholders = [odkProvider: odkProviderStr]

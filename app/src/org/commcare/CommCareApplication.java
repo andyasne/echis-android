@@ -248,7 +248,7 @@ public class CommCareApplication extends MultiDexApplication {
         LocalePreferences.saveDeviceLocale(Locale.getDefault());
         GraphUtil.setLabelCharacterLimit(getResources().getInteger(R.integer.graph_label_char_limit));
 
-        FirebaseMessagingUtil.verifyToken();
+//        FirebaseMessagingUtil.verifyToken();
 
         customiseOkHttp();
     }

@@ -40,7 +40,7 @@
                     android:paddingRight="@dimen/content_start"
                     android:paddingTop="@dimen/content_start"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/commcare_logo"
+                    app:srcCompat="@drawable/echis_logo"
                     android:paddingEnd="@dimen/content_start"
                     android:paddingStart="@dimen/content_start" />
 

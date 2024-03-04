@@ -1,6 +1,6 @@
 # Install strings
 install.keep.trying=Keep trying if connection is interrupted
-install.barcode.top=Welcome to CommCare!
+install.barcode.top=Welcome to eCHIS!
 install.barcode.bottom=Please choose an installation method below
 install.manual=Please enter the URL
 install.ready.top=Almost there!
@@ -13,11 +13,11 @@ install.button.start=Start Install
 install.bad.ref=You did not scan a valid URL. Please try again.
 install.bad.login=Login to Existing App
 install.appprofile=Enter your app code
-install.perms.rationale.message=CommCare requires at least external storage read & write permissions in order to store form submissions.
+install.perms.rationale.message=eCHIS requires at least external storage read & write permissions in order to store form submissions.
 install.perms.denied.message=Crucial permissions denied ${0} times.\n\n If requesting permissions here fails, please enable permissions under Android's settings.
 install.choose.local.app=Available Apps
 install.wrong.code=The app code you have entered is incorrect. Please try scanning barcode or entering correct code.
-install.invalid.launch=Invalid CommCare launch, External applications should use a VIEW action to launch CommCare.
+install.invalid.launch=Invalid eCHIS launch, External applications should use a VIEW action to launch eCHIS.
 
 menu.archive=Offline Install
 menu.sms=SMS Install
@@ -29,24 +29,24 @@ menu.sms.not.retrieved=We could not retrieve the installation link. Please check
 updates.resources.initialization=Setting Up App
 updates.resources.profile=Locating application...
 
-archive.install.prompt=Install your CommCare application from a .ccz file
+archive.install.prompt=Install your eCHIS application from a .ccz file
 archive.install.button=Install App
 
-install.version.mismatch=The application requires CommCare version ${0}. You are currently running ${1}.
-install.major.mismatch=Please uninstall your CommCare Application from the phone Settings Menu, navigate to the Google Playstore, and install CommCare again.
-install.minor.mismatch=Please update CommCare from the Google Playstore to run this application.
+install.version.mismatch=The application requires eCHIS version ${0}. You are currently running ${1}.
+install.major.mismatch=Please uninstall your eCHIS Application from the phone Settings Menu, navigate to the Google Playstore, and install eCHIS again.
+install.minor.mismatch=Please update eCHIS from the Google Playstore to run this application.
 
-update.version.mismatch=This application update requires CommCare version ${0}. You are currently running ${1}.
-update.major.mismatch=Please uninstall your CommCare Application from the phone Settings Menu, navigate to the Google Playstore, and install CommCare again.
-update.minor.mismatch=Please update CommCare from the Google Playstore to update this application.
+update.version.mismatch=This application update requires eCHIS version ${0}. You are currently running ${1}.
+update.major.mismatch=Please uninstall your eCHIS Application from the phone Settings Menu, navigate to the Google Playstore, and install eCHIS again.
+update.minor.mismatch=Please update eCHIS from the Google Playstore to update this application.
 
 # App manager strings
 app.manager.advanced.settings.title=App Manager > Advanced Settings
 app.manager.advanced.settings.option=Advanced
-app.manager.menu.about=About CommCare
+app.manager.menu.about=About eCHIS
 app.manager.developer.options.title=App Manager > Developer Options
 app.manager.advanced.developer.options=Developer Options
-app.manager.developer.options.enabled=CommCare Developer Mode Enabled
+app.manager.developer.options.enabled=eCHIS Developer Mode Enabled
 
 # strings for Install from list
 menu.app.list.install=See Apps for My User

@@ -32,15 +32,15 @@
     <string name="manager_instructions">Select an app to view its management options, or install a new app.</string>
     <string name="pre_multiple_apps_warning">Warning: The app you have installed is from an outdated build.
         For full functionality of multiple application seating, please make a new build of your app.</string>
-    <string name="uninstall_reboot_warning">CommCare will uninstall your app and then reboot to save changes.</string>
-    <string name="logout_warning">In order to complete this action, CommCare must log out the currently logged-in app. Do you want to proceed?</string>
+    <string name="uninstall_reboot_warning">eCHIS will uninstall your app and then reboot to save changes.</string>
+    <string name="logout_warning">In order to complete this action, eCHIS must log out the currently logged-in app. Do you want to proceed?</string>
     <string name="logging_out">Logging out your app</string>
     <string name="uninstalling">Uninstalling your app</string>
     <string name="media_not_verified">Media Not Verified</string>
     <string name="media_verified">Media Validated!</string>
     <string name="no_installation">No app was installed!</string>
-    <string name="migration_definite_failure">CommCare was unable to migrate your app data for an upgrade. To resolve this issue, please uninstall CommCare from your device and then relaunch it.</string>
-    <string name="migration_possible_failure">CommCare was unable to migrate all of your data during an application upgrade. Please restart CommCare to try to fix this. If this message persists, you may need to \'Clear data\' for CommCare in your device\'s Settings menu.</string>
+    <string name="migration_definite_failure">eCHIS was unable to migrate your app data for an upgrade. To resolve this issue, please uninstall eCHIS from your device and then relaunch it.</string>
+    <string name="migration_possible_failure">eCHIS was unable to migrate all of your data during an application upgrade. Please restart eCHIS to try to fix this. If this message persists, you may need to \'Clear data\' for eCHIS in your device\'s Settings menu.</string>
     <string name="migration_failure_title">Migration Error</string>
     <string name="multiple_apps_limit_message">You have reached your limit of installed apps; you may only have up to %s apps installed at once.\n\nIf you would like to install a new app, you may uninstall an existing app first, which can be done from the app manager.</string>
     <string name="back_to_manager">"Back to App Manager"</string>
@@ -53,15 +53,15 @@
     <string name="privilege_instructions">If you have a superuser account on HQ, you can enable certain privileges on your device by going to the \'Enable Privileges on Mobile\' tab of your \'My Account Settings\' page, and then scanning the barcode that appears there.</string>
     <string name="see_available_apps">See Available Apps</string>
     <string name="install_from_list_prompt">Log in as a mobile or web user to see a list of apps you can install</string>
-    <string name="legacy_failure">CommCare does not support upgrading from the previous CommCare version you were using. To resolve this issue, please uninstall CommCare from your device and then reinstall it.</string>
-    <string name="legacy_failure_title">Incompatible CommCare Upgrade</string>
+    <string name="legacy_failure">eCHIS does not support upgrading from the previous eCHIS version you were using. To resolve this issue, please uninstall eCHIS from your device and then reinstall it.</string>
+    <string name="legacy_failure_title">Incompatible eCHIS Upgrade</string>
     <!-- endregion -->
 
     <string name="app_version_string">version.id.long</string>
     <string name="notificationtitle">Logged Into Commcare</string>
-    <string name="expirenotification">CommCare Login Expired</string>
+    <string name="expirenotification">eCHIS Login Expired</string>
     <string name="submission_notification_title">Submitting Data</string>
-    <string name="submission_logs_title">Submitting CommCare Logs</string>
+    <string name="submission_logs_title">Submitting eCHIS Logs</string>
     <string name="remote_form_payload_url"/>
 
     <item name="login_screen_hide_all_cuttoff" type="integer">200</item>
@@ -69,10 +69,10 @@
 
     <string name="url_prompt">Choose a URL</string>
 
-    <string name="about_dialog" formatted="false" cc:translatable="true">%s\n\n_Copyright 2016, Dimagi inc, All rights reserved_ \n\n---------------- \n\n__Acknowledgements:__ \n\n%sSome images in CommCare are graciously used under Creative Commons Licensing from thenounproject.com collection:\n\n* “Door” symbol by Tak Imoto \n* “Pencil” symbol by Creologica \n* “Notebook” symbol by Carlo \n* “Antenna” symbol by Dima \n* “Map Marker” symbol by P.J. Onori \n* "List" by Landan Lloyd \n* broken screen by Sam Martin from the Noun Project \n\n
+    <string name="about_dialog" formatted="false" cc:translatable="true">%s\n\n_Copyright 2016, Dimagi inc, All rights reserved_ \n\n---------------- \n\n__Acknowledgements:__ \n\n%sSome images in eCHIS are graciously used under Creative Commons Licensing from thenounproject.com collection:\n\n* “Door” symbol by Tak Imoto \n* “Pencil” symbol by Creologica \n* “Notebook” symbol by Carlo \n* “Antenna” symbol by Dima \n* “Map Marker” symbol by P.J. Onori \n* "List" by Landan Lloyd \n* broken screen by Sam Martin from the Noun Project \n\n
 
 </string>
-    <string name="notification_message_title">CommCare Notification</string>
+    <string name="notification_message_title">eCHIS Notification</string>
 
     <string-array name="frequency_vals">
         <item>freq-never</item>
@@ -146,11 +146,11 @@
     <string name="hello_world">Please enter your issues below</string>
     <string name="menu_settings">Settings</string>
 
-    <string name="permission_content_provider_label">Read Secure CommCare Data</string>
-    <string name="permission_content_provider_description">Allows this app to read data from CommCare while a user is logged in</string>
-    <string name="permission_external_action_label">Allow CommCare Actions</string>
+    <string name="permission_content_provider_label">Read Secure eCHIS Data</string>
+    <string name="permission_content_provider_description">Allows this app to read data from eCHIS while a user is logged in</string>
+    <string name="permission_external_action_label">Allow eCHIS Actions</string>
     <string name="permission_external_action_description">Allows this app to trigger operations like login, logout and sync in CommCare</string>
-    <string name="permission_commcare_logout_label">Allow Auto CommCare Logout</string>
+    <string name="permission_commcare_logout_label">Allow Auto eCHIS Logout</string>
     <string name="permission_commcare_logout_description">Allows this app to logout a user from CommmCare App</string>
 
     <string name="title_activity_report_problem">ReportProblemActivity</string>
@@ -160,11 +160,11 @@
 
     <string name="managed_configuration_username">Mobile Worker Username</string>
     <string name="managed_configuration_password">Mobile Worker Password</string>
-    <string name="managed_configuration_profile_url">CommCare App Link</string>
+    <string name="managed_configuration_profile_url">eCHIS App Link</string>
 
-    <string name="managed_configuration_username_description">The username of the CommCare mobile worker to login and restore on the device</string>
+    <string name="managed_configuration_username_description">The username of the eCHIS mobile worker to login and restore on the device</string>
     <string name="managed_configuration_password_description">The password of the mobile user</string>
-    <string name="managed_configuration_profile_url_description">The URL to your CommCare Application from the CommCareHQ publish page</string>
+    <string name="managed_configuration_profile_url_description">The URL to your eCHIS Application from the CommCareHQ publish page</string>
 
 
     <!-- Start Collect Strings -->
@@ -345,17 +345,17 @@
 
     <string name="share" cc:translatable="true">Share</string>
     <string name="title_data_change_logs_activity" cc:translatable="true">Data Change Logs</string>
-    <string name="commcare_logs" cc:translatable="true">CommCare Data Change Logs</string>
+    <string name="commcare_logs" cc:translatable="true">eCHIS Data Change Logs</string>
 
     <!--Clear User Data-->
     <string name="clear_user_data_delete_form" cc:translatable="true">Delete Forms</string>
 
     <!--Incorrect Target Screen-->
-    <string name="target_mismatch_lts_required" cc:translatable="true">App Requires CommCare LTS</string>
-    <string name="target_mismatch_lts_required_install" cc:translatable="true">Install CommCare LTS</string>
-    <string name="target_mismatch_lts_open" cc:translatable="true">Open CommCare LTS</string>
-    <string name="target_mismatch_lts_required_info" cc:translatable="true">Follow the link below to install CommCare LTS from the Play Store, and then try installing your app again.</string>
-    <string name="target_mismatch_lts_available_info" cc:translatable="true">This app requires CommCare LTS. Click the button below to open CommCare LTS, and then try installing your app again.</string>
+    <string name="target_mismatch_lts_required" cc:translatable="true">App Requires eCHIS LTS</string>
+    <string name="target_mismatch_lts_required_install" cc:translatable="true">Install eCHIS LTS</string>
+    <string name="target_mismatch_lts_open" cc:translatable="true">Open eCHIS LTS</string>
+    <string name="target_mismatch_lts_required_info" cc:translatable="true">Follow the link below to install eCHIS LTS from the Play Store, and then try installing your app again.</string>
+    <string name="target_mismatch_lts_available_info" cc:translatable="true">This app requires eCHIS LTS. Click the button below to open eCHIS LTS, and then try installing your app again.</string>
     <string name="target_mismatch_commcare_required" cc:translatable="true">App Requires CommCare(Non LTS)</string>
     <string name="target_mismatch_commcare_required_install" cc:translatable="true">Install CommCare</string>
     <string name="target_mismatch_commcare_open" cc:translatable="true">Open CommCare</string>
@@ -369,8 +369,8 @@
     <string name="incorrect_time_dialog_cancel" cc:translatable="true">Cancel</string>
 
     <!--Recovery Activity-->
-    <string name="recovery_mode_title" cc:translatable="true">CommCare Recovery Mode</string>
-    <string name="recovery_mode_detail" cc:translatable="true">CommCare has entered recovery mode due to a problem with your app. We are trying to recover your app. Please wait...</string>
+    <string name="recovery_mode_title" cc:translatable="true">eCHIS Recovery Mode</string>
+    <string name="recovery_mode_detail" cc:translatable="true">eCHIS has entered recovery mode due to a problem with your app. We are trying to recover your app. Please wait...</string>
     <string name="recovery_resource_progress" cc:translatable="true">Recovered %1$s out of %2$s resources</string>
     <string name="recovery_error_poor_connection" cc:translatable="true">Recovery failed due to bad internet. Please make sure that you have a stable internet connection and try again</string>
     <string name="recovery_error_unknown" cc:translatable="true">Recovery failed due to an unknown reason. Please try again or reinstall your app by going to App Manager</string>
@@ -388,11 +388,11 @@
     <string name="recovery_retry" cc:translatable="true">Retry Recovery</string>
 
     <string name="notification_channel_errors_title" cc:translatable="true">Errors</string>
-    <string name="notification_channel_errors_description" cc:translatable="true">Notifications for error messages when something breaks say on installing a CommCare app or while syncing forms with server</string>
+    <string name="notification_channel_errors_description" cc:translatable="true">Notifications for error messages when something breaks say on installing a eCHIS app or while syncing forms with server</string>
     <string name="notification_channel_user_session_title" cc:translatable="true">User Session</string>
     <string name="notification_channel_user_session_description" cc:translatable="true">Notification containing information around current user session like when the current session is scheduled to expire</string>
     <string name="notification_channel_server_communication_title" cc:translatable="true">Server Communications</string>
-    <string name="notification_channel_server_communication_description" cc:translatable="true">Notifications for status of any background server communication happening at the moment like CommCare App updates, log submission etc.</string>
+    <string name="notification_channel_server_communication_description" cc:translatable="true">Notifications for status of any background server communication happening at the moment like eCHIS App updates, log submission etc.</string>
     <string name="notification_channel_push_notfications_title" cc:translatable="true">Priority notifications from Server</string>
     <string name="notification_channel_push_notfications_description" cc:translatable="true">Notifications sent from server directly to notify user of priority tasks</string>
 
@@ -401,8 +401,8 @@
     <string name="recovery_measure_reinstall_detail" cc:translatable="true">Your app needs to be reinstalled due to a problem, please select a method for reinstalling.</string>
     <string name="recovery_measure_reinstall_online_method" cc:translatable="true">Online Reinstall</string>
     <string name="recovery_measure_reinstall_offline_method" cc:translatable="true">Reinstall Using CCZ</string>
-    <string name="recovery_measure_detail" cc:translatable="true">Recovery procedures have been initiated for your CommCare App due to a problem with it. Please wait...</string>
-    <string name="recovery_measure_faiure" cc:translatable="true">An error occurred when CommCare tried to execute a recovery measure. We will try again later. If the problem persists please contact helpdesk</string>
+    <string name="recovery_measure_detail" cc:translatable="true">Recovery procedures have been initiated for your eCHIS App due to a problem with it. Please wait...</string>
+    <string name="recovery_measure_faiure" cc:translatable="true">An error occurred when eCHIS tried to execute a recovery measure. We will try again later. If the problem persists please contact helpdesk</string>
     <string name="recovery_measure_retry" cc:translatable="true">Retry Recovery</string>
     <string name="recovery_measure_app_reinstall_progress" cc:translatable="true">Reinstalling %1$s out of %2$s resources</string>
     <string name="recovery_measure_app_update_progress" cc:translatable="true">Updating %1$s out of %2$s resources</string>
@@ -436,11 +436,11 @@
     <string name="area_format" cc:translatable="true">%1s sq m</string>
     <string name="parse_coordinates_failure" cc:translatable="true">Could not parse input coordinates</string>
     <string name="location_provider_disabled" cc:translatable="true">Turn on your location to receive location updates</string>
-    <string name="wait_for_location_fix"  cc:translatable="true">CommCare is still trying to get your location. Please wait or click Cancel to abort.</string>
+    <string name="wait_for_location_fix"  cc:translatable="true">eCHIS is still trying to get your location. Please wait or click Cancel to abort.</string>
     <string name="invalid_case_property_length" cc:translatable="true">Invalid %1s, value must be 255 characters or less</string>
     <string name="invalid_case_graph_error" cc:translatable="true">This form introduces an invalid case relationship</string>
     <string name="root_detected_title" cc:translatable="true">Rooted Device Detected</string>
-    <string name="root_detected_message" cc:translatable="true">You are not allowed to run CommCare on a rooted device. Please use a non rooted device</string>
+    <string name="root_detected_message" cc:translatable="true">You are not allowed to run eCHIS on a rooted device. Please use a non rooted device</string>
     <string name="session_endpoint_unavailable" cc:translatable="true">No endpoint exist with id %1$s. Valid endpoints are %2$s</string>
     <string name="session_endpoint_invalid_arguments" cc:translatable="true">Incorrect arguments supplied for endpoint %1$s. Supplied arguments: %2$s. Expected arguments: %3$s.</string>
     <string name="selected_location" cc:translatable="true">Selected Location</string>
@@ -448,11 +448,11 @@
     <string name="playback_start_time">00:00</string>
     <string name="dependency_missing_dialog_title" cc:translatable="true">Get Required App</string>
     <string name="dependency_missing_dialog_title_plural" cc:translatable="true">Get Required Apps</string>
-    <string name="dependency_missing_dialog_message" cc:translatable="true">CommCare needs %s application to be installed on your device before you can continue</string>
-    <string name="dependency_missing_dialog_message_plural" cc:translatable="true">CommCare needs below applications to be installed on your device before you can continue-</string>
+    <string name="dependency_missing_dialog_message" cc:translatable="true">eCHIS needs %s application to be installed on your device before you can continue</string>
+    <string name="dependency_missing_dialog_message_plural" cc:translatable="true">eCHIS needs below applications to be installed on your device before you can continue-</string>
     <string name="dependency_missing_dialog_go_to_store" cc:translatable="true">Install from Store</string>
     <string name="dependency_missing_dialog_playstore_not_found" cc:translatable="true">No Play Store found on your device</string>
     <string name="fcm_notification">FCM Notification</string>
     <string name="fcm_default_notification_channel">notification-channel-push-notifications</string>
-    <string name="app_with_id_not_found">Required CommCare App is not installed on device</string>
+    <string name="app_with_id_not_found">Required eCHIS App is not installed on device</string>
 </resources>
