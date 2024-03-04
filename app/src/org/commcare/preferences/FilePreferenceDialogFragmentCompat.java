@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import org.apache.commons.io.FilenameUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.util.LogTypes;
 import org.commcare.utils.FileExtensionNotFoundException;
 import org.commcare.utils.FileUtil;

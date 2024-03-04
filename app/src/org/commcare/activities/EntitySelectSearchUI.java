@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import org.commcare.activities.components.EntitySelectCalloutSetup;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.suite.model.Callout;
 
 import androidx.appcompat.widget.SearchView;

@@ -20,7 +20,7 @@ import android.webkit.WebViewClient;
 
 import org.commcare.CommCareApplication;
 import org.commcare.android.javarosa.IntentCallout;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.MainConfigurablePreferences;
 import org.commcare.suite.model.Detail;
 import org.commcare.print.TemplatePrinterTask.PopulateListener;

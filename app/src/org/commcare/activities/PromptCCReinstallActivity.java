@@ -3,7 +3,7 @@ package org.commcare.activities;
 import android.view.View;
 
 import org.commcare.AppUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.recovery.measures.CommCareReinstallPrompt;
 import org.commcare.utils.StringUtils;
 import org.javarosa.core.io.StreamsUtil;

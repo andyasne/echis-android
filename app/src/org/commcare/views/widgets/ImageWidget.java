@@ -25,7 +25,7 @@ import org.commcare.activities.FormEntryActivity;
 import org.commcare.activities.components.FormEntryConstants;
 import org.commcare.activities.components.FormEntryInstanceState;
 import org.commcare.activities.components.ImageCaptureProcessing;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.RuntimePermissionRequester;
 import org.commcare.logic.PendingCalloutInterface;
 import org.commcare.utils.FileUtil;

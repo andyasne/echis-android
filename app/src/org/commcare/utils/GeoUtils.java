@@ -11,7 +11,7 @@ import android.location.LocationManager;
 import android.net.Uri;
 
 import org.commcare.activities.CommCareActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.views.dialogs.StandardAlertDialog;
 import org.javarosa.core.model.data.GeoPointData;
 import org.javarosa.core.model.data.UncastData;

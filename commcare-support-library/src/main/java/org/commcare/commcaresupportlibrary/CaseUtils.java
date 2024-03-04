@@ -139,7 +139,7 @@ public class CaseUtils {
      * Provides a listing of all cases in the system, along with their metadata.
      * Returns all of the named attributes for a case (case_type, date_opened, etc) in columns.
 
-     content://org.commcare.dalvik.case/casedb/case
+     content://org.commcare.dalvik.eCHIS.case/casedb/case
 
      Response Content
 
@@ -167,7 +167,7 @@ public class CaseUtils {
     /**
      * Returns all of the named attributes for a single case (case_type, date_opened, etc) in columns.
 
-     content://org.commcare.dalvik.case/casedb/case/CASE_ID
+     content://org.commcare.dalvik.eCHIS.case/casedb/case/CASE_ID
 
      Response Content
 
@@ -195,7 +195,7 @@ public class CaseUtils {
     /**
      * Returns the key/value pairs of all data for a specific case
 
-     content://org.commcare.dalvik.case/casedb/data/CASE_ID
+     content://org.commcare.dalvik.eCHIS.case/casedb/data/CASE_ID
 
      Response Content
 
@@ -217,7 +217,7 @@ public class CaseUtils {
     /**
      * Returns all indices for a specific case
 
-     content://org.commcare.dalvik.case/casedb/index/CASE_ID
+     content://org.commcare.dalvik.eCHIS.case/casedb/index/CASE_ID
 
      Response Content
 

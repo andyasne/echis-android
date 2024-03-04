@@ -15,7 +15,7 @@ import junit.framework.TestCase.assertEquals
 import org.commcare.AndroidPackageUtilsMock
 import org.commcare.CommCareApplication
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.utils.AndroidPackageUtils
 import org.commcare.utils.InstrumentationUtility
 import org.commcare.utils.isPresent
@@ -29,7 +29,7 @@ class ApkDependenciesTest : BaseTest() {
     companion object {
         const val CCZ_NAME = "android_dependency_test.ccz"
         const val APP_NAME = "Android Dependency Test"
-        const val PLAY_STORE_URL = "market://details?id=org.commcare.dalvik.reminders"
+        const val PLAY_STORE_URL = "market://details?id=org.commcare.dalvik.eCHIS.reminders"
     }
 
     @Test
@@ -52,7 +52,7 @@ class ApkDependenciesTest : BaseTest() {
         verifyDialogDisimissOnBack()
 
         // mock as all dependencies are satisfied and check dialog doesn't app
-        mockAndroidUtils.addInstalledPackage("org.commcare.dalvik.reminders")
+        mockAndroidUtils.addInstalledPackage("org.commcare.dalvik.eCHIS.reminders")
         onView(withText("Start"))
             .perform(click())
         onView(withText(R.string.dependency_missing_dialog_title)).check(doesNotExist())

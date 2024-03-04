@@ -8,7 +8,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * An AppCompat compatible implemenation for Android's {@link android.app.ListActivity} class

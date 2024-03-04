@@ -6,7 +6,7 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.utils.CustomMatchers.matchListSize
 import org.commcare.utils.InstrumentationUtility
 import org.commcare.utils.isDisplayed

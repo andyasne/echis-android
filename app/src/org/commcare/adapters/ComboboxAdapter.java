@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Filter;
 import android.widget.TextView;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.javarosa.core.model.ComboboxFilterRule;
 import org.javarosa.core.model.FuzzyMatchFilterRule;
 import org.javarosa.core.model.MultiWordFilterRule;

@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
 import org.commcare.android.logging.ReportingUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.ServerUrls;
 import org.commcare.util.LogTypes;
 import org.javarosa.core.services.Logger;

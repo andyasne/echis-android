@@ -16,7 +16,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.UiDevice
 import org.commcare.CommCareApplication
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.utils.CustomMatchers
 import org.commcare.utils.InstrumentationUtility
 import org.commcare.utils.isDisplayed

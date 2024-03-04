@@ -25,7 +25,7 @@ import org.commcare.android.database.global.models.AppAvailableToInstall;
 import org.commcare.core.interfaces.HttpResponseProcessor;
 import org.commcare.core.network.AuthInfo;
 import org.commcare.core.network.AuthenticationInterceptor;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.database.SqlStorage;
 import org.commcare.modern.util.Pair;
 import org.commcare.network.CommcareRequestGenerator;

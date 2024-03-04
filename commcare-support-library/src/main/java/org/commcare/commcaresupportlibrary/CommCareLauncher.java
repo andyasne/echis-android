@@ -8,7 +8,7 @@ import android.content.Intent;
  */
 public class CommCareLauncher {
     public static final String SESSION_ENDPOINT_APP_ID = "ccodk_session_endpoint_app_id";
-    private static final String CC_LAUNCH_ACTION = "org.commcare.dalvik.action.CommCareSession";
+    private static final String CC_LAUNCH_ACTION = "org.commcare.dalvik.eCHIS.action.CommCareSession";
 
     /**
      *

@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import org.commcare.CommCareApplication;
 import org.commcare.android.logging.ForceCloseLogger;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.engine.resource.AppInstallStatus;
 import org.commcare.resources.model.ResourceTable;
 import org.commcare.sync.ProcessAndSendTask;

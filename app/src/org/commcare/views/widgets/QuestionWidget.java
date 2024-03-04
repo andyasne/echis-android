@@ -28,7 +28,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.commcare.activities.CommCareActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.WidgetChangedListener;
 import org.commcare.preferences.DeveloperPreferences;
 import org.commcare.preferences.FormEntryPreferences;

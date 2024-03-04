@@ -10,7 +10,7 @@ import org.commcare.activities.FormEntryActivity;
 import org.commcare.android.database.user.models.FormRecord;
 import org.commcare.android.util.ActivityLaunchUtils;
 import org.commcare.android.util.TestAppInstaller;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.database.SqlStorage;
 import org.commcare.utils.RobolectricUtil;
 import org.commcare.views.QuestionsView;

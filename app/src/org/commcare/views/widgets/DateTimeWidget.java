@@ -10,7 +10,7 @@ import android.widget.DatePicker;
 import android.widget.TimePicker;
 import android.widget.TimePicker.OnTimeChangedListener;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.javarosa.core.model.data.DateTimeData;
 import org.javarosa.core.model.data.IAnswerData;
 import org.javarosa.form.api.FormEntryPrompt;

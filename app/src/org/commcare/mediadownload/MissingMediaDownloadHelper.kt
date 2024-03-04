@@ -5,7 +5,7 @@ import androidx.work.*
 import kotlinx.coroutines.*
 import org.commcare.CommCareApplication
 import org.commcare.android.resource.installers.MediaFileAndroidInstaller
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.engine.resource.AndroidResourceUtils
 import org.commcare.engine.resource.AppInstallStatus
 import org.commcare.engine.resource.ResourceInstallUtils

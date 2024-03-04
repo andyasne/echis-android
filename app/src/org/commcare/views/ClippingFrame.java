@@ -7,7 +7,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * A clipping frame is a simple frame layout that allows the specification (by attribute or

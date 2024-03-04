@@ -5,7 +5,7 @@ import android.content.Context
 import android.content.DialogInterface
 import org.commcare.CommCareApplication
 import org.commcare.activities.CommCareActivity
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.suite.model.AndroidPackageDependency
 import org.commcare.utils.StringUtils.getStringRobust
 import org.commcare.views.dialogs.StandardAlertDialog

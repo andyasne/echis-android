@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.tasks.MultimediaInflaterTask;
 import org.commcare.tasks.UnZipTaskListener;
 import org.commcare.tasks.templates.CommCareTask;

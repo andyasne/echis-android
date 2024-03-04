@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.commcare.activities.FormRecordListActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.android.database.user.models.FormRecord;
 import org.commcare.suite.model.Text;
 import org.commcare.utils.MarkupUtil;

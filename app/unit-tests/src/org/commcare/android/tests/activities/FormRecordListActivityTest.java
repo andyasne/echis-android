@@ -11,7 +11,7 @@ import org.commcare.adapters.IncompleteFormListAdapter;
 import org.commcare.android.database.user.models.FormRecord;
 import org.commcare.android.util.SavedFormLoader;
 import org.commcare.android.util.TestAppInstaller;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

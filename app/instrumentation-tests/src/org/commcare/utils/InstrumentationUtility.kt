@@ -35,7 +35,7 @@ import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
 import junit.framework.Assert
 import org.commcare.CommCareInstrumentationTestApplication
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.services.CommCareSessionService
 import org.commcare.utils.CustomMatchers.withChildViewCount
 import org.hamcrest.Matcher

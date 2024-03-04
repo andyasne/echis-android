@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.resources.model.MissingMediaException;
 import org.commcare.tasks.VerificationTask;
 import org.commcare.utils.ConsumerAppsUtil;

@@ -7,7 +7,7 @@ import android.util.Log;
 import net.sqlcipher.database.SQLiteDatabase;
 
 import org.commcare.android.database.global.models.ApplicationRecord;
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 import org.commcare.engine.references.JavaFileRoot;
 import org.commcare.interfaces.AppFilePathBuilder;
 import org.commcare.models.database.AndroidDbHelper;

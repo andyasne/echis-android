@@ -1,6 +1,6 @@
 package org.commcare.utils;
 
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 
 public class GlobalConstants {
 

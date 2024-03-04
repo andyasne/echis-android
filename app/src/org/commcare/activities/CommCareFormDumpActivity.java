@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import org.commcare.CommCareApplication;
 import org.commcare.android.database.user.models.FormRecord;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.database.SqlStorage;
 import org.commcare.preferences.AdvancedActionsPreferences;
 import org.commcare.preferences.ServerUrls;

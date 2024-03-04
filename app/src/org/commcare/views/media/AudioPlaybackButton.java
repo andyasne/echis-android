@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.animation.LinearInterpolator;
 import android.widget.ProgressBar;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * Small audio playback button that shows progress via a circular progress bar

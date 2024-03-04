@@ -11,7 +11,7 @@ import org.commcare.CommCareTestApplication;
 import org.commcare.activities.InstallArchiveActivity;
 import org.commcare.activities.UpdateActivity;
 import org.commcare.android.util.TestAppInstaller;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.update.UpdateTask;
 import org.commcare.utils.RobolectricUtil;
 import org.javarosa.core.services.locale.Localization;

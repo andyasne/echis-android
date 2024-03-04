@@ -6,7 +6,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 import org.commcare.CommCareApp;
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.logging.AndroidLogSerializer;
 import org.commcare.logging.DeviceReportWriter;
 import org.commcare.models.database.SqlStorage;

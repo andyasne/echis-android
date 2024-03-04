@@ -3,7 +3,7 @@ package org.commcare.logic;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.javarosa.core.model.FormIndex;
 
 import java.util.ArrayList;

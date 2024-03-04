@@ -41,7 +41,7 @@ def uninstall(app_id):
     Uninstall the app with the given id.
     """
     extras = {"app_id": app_id}
-    cmd = receiver_command("org.commcare.dalvik.api.action" +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action" +
                            ".UninstallApp", extras)
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -53,7 +53,7 @@ def login(username, password):
     Perform a login to the currently seated app
     """
     extras = {"username": username, "password": password}
-    cmd = receiver_command("org.commcare.dalvik.api.action" +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action" +
                            ".LoginWithCreds", extras)
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -65,7 +65,7 @@ def update():
     Update logged in app to latest unstarred build
     """
     extras = {"useLatestBuild": True}
-    cmd = receiver_command("org.commcare.dalvik.api.action." +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action." +
                            "RefreshToLatestBuildAction", extras, "org.commcare.provider.RefreshToLatestBuildReceiver")
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -76,7 +76,7 @@ def stage_recover():
     """
     Alter case db hash token to trigger a recover on next sync
     """
-    cmd = receiver_command("org.commcare.dalvik.api.action" +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action" +
                            ".TriggerSyncRecover")
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -88,7 +88,7 @@ def expire_key(username):
     Expire user key record for user by setting 'validTo' to yesterday
     """
     extras = {"username": username}
-    cmd = receiver_command("org.commcare.dalvik.api.action" +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action" +
                            ".ExpireUserKeyRecord", extras)
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -101,7 +101,7 @@ def capture():
     capture if it isn't already. Form entry session capture only works if
     session capture is already enabled.
     """
-    cmd = receiver_command("org.commcare.dalvik.api.action" +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action" +
                            ".SessionCaptureAction")
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -167,7 +167,7 @@ def install(ccz_file):
 
 
 def clear_restore_cache():
-    cmd = receiver_command("org.commcare.dalvik.api.action" +
+    cmd = receiver_command("org.commcare.dalvik.eCHIS.api.action" +
                            ".ClearCacheOnRestore")
     print(cmd)
     subprocess.call(cmd, shell=True)
@@ -215,7 +215,7 @@ def get_android_file(filename):
     return "file:///storage/emulated/0/{}".format(filename)
 
 def see_data_change_logs():
-     cmd = activity_command("org.commcare.dalvik.debug/" +
+     cmd = activity_command("org.commcare.dalvik.eCHIS.debug/" +
                                "org.commcare.activities.DataChangeLogsActivity")
      print(cmd)
      subprocess.call(cmd, shell=True)

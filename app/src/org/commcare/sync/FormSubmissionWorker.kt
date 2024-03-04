@@ -8,7 +8,7 @@ import androidx.work.WorkerParameters
 import androidx.work.workDataOf
 import org.commcare.CommCareApplication
 import org.commcare.CommCareNoficationManager
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.tasks.DataSubmissionListener
 import org.commcare.utils.FormUploadResult
 

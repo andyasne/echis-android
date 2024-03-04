@@ -3,7 +3,7 @@ package org.commcare.provider;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 
 // Merged in FormRecord in CommCare 2.44, only used for DB Migration now
 public final class InstanceProviderAPI {

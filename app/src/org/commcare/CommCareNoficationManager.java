@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 
 import org.commcare.activities.MessageActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.utils.PopupHandler;
 import org.commcare.views.notifications.NotificationClearReceiver;
 import org.commcare.views.notifications.NotificationMessage;

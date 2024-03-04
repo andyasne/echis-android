@@ -10,7 +10,7 @@ import androidx.preference.PreferenceManager;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.CommCarePreferenceFragment;
 
 import java.util.Map;

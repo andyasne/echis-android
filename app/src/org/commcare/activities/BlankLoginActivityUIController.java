@@ -4,7 +4,7 @@ import android.content.SharedPreferences;
 import android.widget.EditText;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.HiddenPreferences;
 
 import java.util.ArrayList;

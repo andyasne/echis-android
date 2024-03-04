@@ -269,7 +269,7 @@ android {
         targetSdkVersion 33
         multiDexEnabled true
         applicationId 'org.commcare.dalvik'
-        testNamespace "org.commcare.dalvik.test"
+        testNamespace "org.commcare.dalvik.eCHIS.test"
 
         project.ext.COMMCARE_APP_ID = applicationId
         // set the app name
@@ -454,11 +454,11 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
-            def applicationId = "org.commcare.dalvik.echis.debug"
+            def applicationId = "org.commcare.dalvik.eCHIS.echis.debug"
             project.ext.COMMCARE_APP_ID = applicationId
             def applicationName = "eCHIS"
             resValue "string", "application_name", applicationName
-            def odkProviderStr = "org.commcare.dalvik.debug.provider.odk"
+            def odkProviderStr = "org.commcare.dalvik.eCHIS.debug.provider.odk"
             manifestPlaceholders = [odkProvider: odkProviderStr]
 
             minifyEnabled false

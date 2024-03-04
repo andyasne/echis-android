@@ -20,7 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.commcare.activities.CommCareWiFiDirectActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.util.LogTypes;
 import org.javarosa.core.services.Logger;
 

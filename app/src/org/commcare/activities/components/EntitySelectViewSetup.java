@@ -5,7 +5,7 @@ import android.graphics.drawable.LayerDrawable;
 import android.util.TypedValue;
 import android.widget.ListView;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 public class EntitySelectViewSetup {
     public static void setupDivider(Context context, ListView view, boolean useNewDivider) {

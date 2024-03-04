@@ -40,7 +40,7 @@ import java.util.List;
 
 public class FirebaseMessagingDataSyncer implements CommCareTaskConnector {
 
-    public static final String PENGING_SYNC_ALERT_ACTION = "org.commcare.dalvik.action.PENDING_SYNC_ALERT";
+    public static final String PENGING_SYNC_ALERT_ACTION = "org.commcare.dalvik.eCHIS.action.PENDING_SYNC_ALERT";
     public static final String FCM_MESSAGE_DATA = "fcm_message_data";
     public static final String FCM_MESSAGE_DATA_KEY = "fcm_message_data_key";
     private static final String SYNC_FORM_SUBMISSION_REQUEST = "background_sync_form_submission_request";

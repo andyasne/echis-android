@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.google.android.gms.common.api.ResolvableApiException;
 
 import org.commcare.activities.components.FormEntryConstants;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.RuntimePermissionRequester;
 import org.commcare.interfaces.TimerListener;
 import org.commcare.location.CommCareLocationController;

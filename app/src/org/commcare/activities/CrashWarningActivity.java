@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.utils.CommCareExceptionHandler;
 import org.commcare.utils.CommCareLifecycleUtils;
 import org.javarosa.core.services.locale.Localization;

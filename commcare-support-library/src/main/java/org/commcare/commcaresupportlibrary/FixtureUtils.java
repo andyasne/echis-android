@@ -17,7 +17,7 @@ public class FixtureUtils {
 
     /**
      * Provides a listing of the names and IDs of all the fixtures in the system.
-     content://org.commcare.dalvik.fixture/fixturedb/
+     content://org.commcare.dalvik.eCHIS.fixture/fixturedb/
 
      Response content
      column	required
@@ -46,7 +46,7 @@ public class FixtureUtils {
      *
      Returns the raw XML for a fixture with the given instance ID.
 
-     content://org.commcare.dalvik.fixture/fixturedb/[FIXTURE_ID]
+     content://org.commcare.dalvik.eCHIS.fixture/fixturedb/[FIXTURE_ID]
      column	required
      id	yes
      instance_id	yes

@@ -14,7 +14,7 @@ import org.commcare.activities.ConnectionDiagnosticActivity;
 import org.commcare.activities.HomeScreenBaseActivity;
 import org.commcare.activities.RecoveryActivity;
 import org.commcare.activities.ReportProblemActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.CommCarePreferenceFragment;
 import org.commcare.google.services.analytics.AnalyticsParamValue;
 import org.commcare.google.services.analytics.FirebaseAnalyticsUtil;

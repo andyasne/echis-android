@@ -7,7 +7,7 @@ import android.content.pm.PackageManager;
 import org.commcare.AppUtils;
 import org.commcare.CommCareApp;
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 import org.commcare.preferences.HiddenPreferences;
 import org.commcare.preferences.ServerUrls;
 import org.commcare.session.CommCareSession;

@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import org.commcare.activities.CommCareActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.util.CommCarePlatform;
 
 /**

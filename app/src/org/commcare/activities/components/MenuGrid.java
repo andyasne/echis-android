@@ -8,7 +8,7 @@ import android.widget.GridView;
 
 import org.commcare.CommCareApplication;
 import org.commcare.adapters.GridMenuAdapter;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.suite.model.MenuDisplayable;
 import org.javarosa.core.reference.InvalidReferenceException;
 import org.javarosa.core.reference.ReferenceManager;

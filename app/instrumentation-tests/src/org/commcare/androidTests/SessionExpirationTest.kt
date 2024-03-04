@@ -8,7 +8,7 @@ import androidx.test.filters.LargeTest
 import org.commcare.activities.FormEntryActivity
 import org.commcare.activities.LoginActivity
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.utils.InstrumentationUtility
 import org.junit.Before
 import org.junit.Test

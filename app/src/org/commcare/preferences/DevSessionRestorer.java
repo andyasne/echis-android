@@ -9,7 +9,7 @@ import androidx.core.util.Pair;
 import org.commcare.CommCareApp;
 import org.commcare.CommCareApplication;
 import org.commcare.activities.FormEntryActivity;
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 import org.commcare.models.AndroidSessionWrapper;
 import org.commcare.models.database.AndroidSandbox;
 import org.commcare.modern.session.SessionWrapper;

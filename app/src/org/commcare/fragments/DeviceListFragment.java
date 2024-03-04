@@ -18,7 +18,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -35,9 +35,9 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.commcare.CommCareApplication
 import org.commcare.cases.entity.Entity
-import org.commcare.dalvik.R
-import org.commcare.dalvik.databinding.ActivityEntityKujakuMapInfoViewBinding
-import org.commcare.dalvik.databinding.ActivityEntityMapboxBinding
+import org.commcare.dalvik.eCHIS.R
+import org.commcare.dalvik.eCHIS.databinding.ActivityEntityKujakuMapInfoViewBinding
+import org.commcare.dalvik.eCHIS.databinding.ActivityEntityMapboxBinding
 import org.commcare.gis.EntityMapUtils.getEntities
 import org.commcare.gis.EntityMapUtils.getEntityLocation
 import org.commcare.gis.EntityMapUtils.getNeededEntityDatum

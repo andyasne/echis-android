@@ -4,7 +4,7 @@ import android.content.Context;
 
 import org.commcare.activities.FormEntryActivity;
 import org.commcare.activities.FormHierarchyActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.javarosa.core.model.Constants;
 import org.javarosa.core.model.FormIndex;
 import org.javarosa.form.api.FormEntryCaption;

@@ -28,7 +28,7 @@ import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
 import org.commcare.android.database.user.models.ACase;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.BreadcrumbBarFragment;
 import org.commcare.fragments.ContainerFragment;
 import org.commcare.fragments.TaskConnectorFragment;
@@ -163,7 +163,7 @@ public abstract class CommCareActivity<R> extends AppCompatActivity
             persistManagedUiState(fm);
 
             if (getSupportActionBar() != null) {
-                getSupportActionBar().setLogo(org.commcare.dalvik.R.mipmap.ic_launcher_echis);
+                getSupportActionBar().setLogo(org.commcare.dalvik.eCHIS.R.mipmap.ic_launcher_echis);
             }
 
             if (shouldShowBreadcrumbBar()) {
@@ -513,7 +513,7 @@ public abstract class CommCareActivity<R> extends AppCompatActivity
         try {
             return Localization.get("app.display.name");
         } catch (NoLocalizedTextException nlte) {
-            return c.getString(org.commcare.dalvik.R.string.title_bar_name);
+            return c.getString(org.commcare.dalvik.eCHIS.R.string.title_bar_name);
         }
     }
 
@@ -746,18 +746,18 @@ public abstract class CommCareActivity<R> extends AppCompatActivity
     protected void tryToAddSearchActionToAppBar(AppCompatActivity activity, Menu menu,
             ActionBarInstantiator instantiator) {
         MenuInflater inflater = activity.getMenuInflater();
-        inflater.inflate(org.commcare.dalvik.R.menu.action_bar_search_view, menu);
+        inflater.inflate(org.commcare.dalvik.eCHIS.R.menu.action_bar_search_view, menu);
 
-        MenuItem searchMenuItem = menu.findItem(org.commcare.dalvik.R.id.search_action_bar);
+        MenuItem searchMenuItem = menu.findItem(org.commcare.dalvik.eCHIS.R.id.search_action_bar);
         SearchView searchView = (SearchView)searchMenuItem.getActionView();
-        MenuItem barcodeItem = menu.findItem(org.commcare.dalvik.R.id.barcode_scan_action_bar);
+        MenuItem barcodeItem = menu.findItem(org.commcare.dalvik.eCHIS.R.id.barcode_scan_action_bar);
         if (searchView != null) {
             if (instantiator != null) {
                 instantiator.onActionBarFound(searchMenuItem, searchView, barcodeItem);
             }
         }
 
-        View bottomSearchWidget = activity.findViewById(org.commcare.dalvik.R.id.searchfooter);
+        View bottomSearchWidget = activity.findViewById(org.commcare.dalvik.eCHIS.R.id.searchfooter);
         if (bottomSearchWidget != null) {
             bottomSearchWidget.setVisibility(View.GONE);
         }

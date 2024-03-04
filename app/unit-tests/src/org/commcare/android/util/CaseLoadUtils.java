@@ -5,7 +5,7 @@ import android.widget.ListView;
 
 import org.commcare.activities.EntitySelectActivity;
 import org.commcare.adapters.EntityListAdapter;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.junit.Assert;
 import org.robolectric.Robolectric;
 import org.robolectric.Shadows;

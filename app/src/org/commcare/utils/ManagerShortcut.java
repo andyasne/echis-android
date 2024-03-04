@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.commcare.activities.AppManagerActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 public class ManagerShortcut extends AppCompatActivity {
 

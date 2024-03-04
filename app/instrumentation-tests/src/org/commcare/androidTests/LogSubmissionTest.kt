@@ -15,7 +15,7 @@ import androidx.test.runner.intent.IntentMonitorRegistry
 import junit.framework.Assert
 import junit.framework.TestCase.assertTrue
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.utils.InstrumentationUtility
 import org.commcare.utils.isDisplayed
 import org.commcare.utils.isPresent

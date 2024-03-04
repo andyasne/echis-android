@@ -8,7 +8,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.ProgressBar;
 
 import org.commcare.activities.SyncCapableCommCareActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.UiLoadedListener;
 
 /**

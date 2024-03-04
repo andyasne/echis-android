@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.widget.AppCompatButton;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.utils.DotsData;
 import org.commcare.utils.DotsData.DotsDay;
 import org.commcare.utils.DotsData.MedStatus;

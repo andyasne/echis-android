@@ -9,8 +9,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.commcare.dalvik.BuildConfig;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.BuildConfig;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.PromptItem;
 import org.commcare.views.ManagedUi;
 import org.commcare.views.UiElement;

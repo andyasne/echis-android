@@ -3,7 +3,7 @@ package org.commcare.views;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * Square button with custom image, text, and color

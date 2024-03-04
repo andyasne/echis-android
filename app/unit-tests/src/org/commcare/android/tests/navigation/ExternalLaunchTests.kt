@@ -60,7 +60,7 @@ class ExternalLaunchTests {
     }
 
     private fun launchAndVerifyCCWithAppId(appId: String, nextScreen: String) {
-        val intent = Intent("org.commcare.dalvik.action.CommCareSession")
+        val intent = Intent("org.commcare.dalvik.eCHIS.action.CommCareSession")
         intent.putExtra(SESSION_ENDPOINT_APP_ID, appId)
         var dispathActivity =
             Robolectric.buildActivity(DispatchActivity::class.java, intent).create().resume().get()
@@ -108,7 +108,7 @@ class ExternalLaunchTests {
     }
 
     private fun launchHomeActivityWithSessionEndpoint(endpointId: String, args: Any): StandardHomeActivity {
-        val intent = Intent("org.commcare.dalvik.action.CommCareSession")
+        val intent = Intent("org.commcare.dalvik.eCHIS.action.CommCareSession")
         intent.putExtra(DispatchActivity.SESSION_ENDPOINT_ID, endpointId)
 
         if (args is Bundle) {

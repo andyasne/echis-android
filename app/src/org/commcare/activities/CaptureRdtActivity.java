@@ -15,7 +15,7 @@ import androidx.fragment.app.FragmentResultListener;
 
 import org.auderenow.healthpulse.dxa.mobilesdk.RDTInterpreterResult;
 import org.commcare.android.logging.ReportingUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.auderenow.healthpulse.dxa.mobilesdk.CaptureFragment;
 
 /**

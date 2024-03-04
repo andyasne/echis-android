@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import org.commcare.activities.components.FormEntryConstants;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.logic.PendingCalloutInterface;
 import org.commcare.utils.StringUtils;
 import org.javarosa.form.api.FormEntryPrompt;

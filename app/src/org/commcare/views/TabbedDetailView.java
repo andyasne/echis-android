@@ -12,7 +12,7 @@ import android.widget.RelativeLayout;
 
 import org.commcare.adapters.EntityDetailPagerAdapter;
 import org.commcare.adapters.ListItemViewStriper;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.suite.model.Detail;
 import org.commcare.utils.AndroidUtil;
 import org.javarosa.core.model.instance.TreeReference;

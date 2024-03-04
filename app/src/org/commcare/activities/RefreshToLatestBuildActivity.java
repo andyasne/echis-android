@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.DevSessionRestorer;
 import org.commcare.preferences.DeveloperPreferences;
 import org.commcare.utils.SessionUnavailableException;

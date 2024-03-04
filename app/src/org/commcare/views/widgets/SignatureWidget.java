@@ -36,7 +36,7 @@ import org.commcare.activities.DrawActivity;
 import org.commcare.activities.FormEntryActivity;
 import org.commcare.activities.components.FormEntryConstants;
 import org.commcare.activities.components.FormEntryInstanceState;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.logic.PendingCalloutInterface;
 import org.commcare.utils.GlobalConstants;
 import org.commcare.utils.MediaUtil;

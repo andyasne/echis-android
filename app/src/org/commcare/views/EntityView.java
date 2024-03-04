@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import org.commcare.android.logging.ForceCloseLogger;
 import org.commcare.cases.entity.Entity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.core.graph.model.GraphData;
 import org.commcare.core.graph.util.GraphException;
 import org.commcare.graph.view.GraphView;

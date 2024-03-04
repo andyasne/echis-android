@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.Window;
 import android.widget.Button;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * A specialized version of PaneledChoiceDialog that shows exactly 3 choice items (rather than N

@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.AdvanceToNextListener;
 import org.commcare.views.media.MediaLayout;
 import org.javarosa.core.model.SelectChoice;

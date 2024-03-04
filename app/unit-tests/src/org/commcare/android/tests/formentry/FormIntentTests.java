@@ -10,7 +10,7 @@ import org.commcare.activities.FormEntryActivity;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import org.commcare.android.util.ActivityLaunchUtils;
 import org.commcare.android.util.TestAppInstaller;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.utils.CompoundIntentList;
 import org.junit.Before;
 import org.junit.Test;
@@ -80,7 +80,7 @@ public class FormIntentTests {
         ArrayList<String> indices =
                 compoundIntentObject.getStringArrayListExtra(CompoundIntentList.EXTRA_COMPOUND_DATA_INDICES);
 
-        assertEquals("Incorreclty aggregated callout action", "org.commcare.dalvik.action.PRINT", action);
+        assertEquals("Incorreclty aggregated callout action", "org.commcare.dalvik.eCHIS.action.PRINT", action);
 
         String testIndex = "1,1_0,0";
 

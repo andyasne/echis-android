@@ -12,7 +12,7 @@ import org.commcare.CommCareApplication;
 import org.commcare.activities.CommCareActivity;
 import org.commcare.cases.entity.Entity;
 import org.commcare.cases.entity.NodeEntityFactory;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.AndroidSortableEntityAdapter;
 import org.commcare.preferences.MainConfigurablePreferences;
 import org.commcare.session.SessionInstanceBuilder;

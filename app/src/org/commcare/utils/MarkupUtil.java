@@ -23,7 +23,7 @@ import net.nightwhistler.htmlspanner.SpanStack;
 import net.nightwhistler.htmlspanner.TagNodeHandler;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.DeveloperPreferences;
 import org.commonmark.node.Node;
 import org.htmlcleaner.TagNode;

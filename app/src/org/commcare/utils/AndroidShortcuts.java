@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
 import org.commcare.activities.DispatchActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.suite.model.Menu;
 import org.commcare.suite.model.Suite;
 import org.commcare.views.dialogs.DialogChoiceItem;
@@ -24,7 +24,7 @@ import java.util.ArrayList;
  */
 public class AndroidShortcuts extends AppCompatActivity {
 
-    public static final String EXTRA_KEY_SHORTCUT = "org.commcare.dalvik.application.shortcut.command";
+    public static final String EXTRA_KEY_SHORTCUT = "org.commcare.dalvik.eCHIS.application.shortcut.command";
 
     private String[] commands;
     private String[] names;

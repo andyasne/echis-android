@@ -29,7 +29,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.commcare.CommCareApplication;
 import org.commcare.activities.components.FormEntryConstants;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.HiddenPreferences;
 import org.commcare.utils.GeoUtils;
 import org.commcare.utils.MapLayer;

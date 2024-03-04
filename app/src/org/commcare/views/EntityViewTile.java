@@ -21,7 +21,7 @@ import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
 
 import org.commcare.cases.entity.Entity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.AsyncEntity;
 import org.commcare.suite.model.Detail;
 import org.commcare.util.GridCoordinate;

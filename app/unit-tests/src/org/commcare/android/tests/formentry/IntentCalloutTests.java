@@ -14,7 +14,7 @@ import org.commcare.android.resource.installers.XFormAndroidInstaller;
 import org.commcare.android.util.ActivityLaunchUtils;
 import org.commcare.android.util.TestAppInstaller;
 import org.commcare.android.util.TestUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.views.widgets.IntentWidget;
 import org.commcare.views.widgets.StringNumberWidget;
 import org.junit.Before;

@@ -14,7 +14,7 @@ import javax.annotation.Nullable;
 
 public class ExternalDataUpdateHelper {
 
-    public static final String COMMCARE_DATA_UPDATE_ACTION = "org.commcare.dalvik.api.action.data.update";
+    public static final String COMMCARE_DATA_UPDATE_ACTION = "org.commcare.dalvik.eCHIS.api.action.data.update";
 
     /**
      * Broadcasts data update to external apps
@@ -35,8 +35,8 @@ public class ExternalDataUpdateHelper {
         c.sendBroadcast(i, COMMCARE_CASE_READ_PERMISSION);
 
         // send explicit broadcast to CommCare Reminders App
-        i.setComponent(new ComponentName("org.commcare.dalvik.reminders",
-                "org.commcare.dalvik.reminders.CommCareReceiver"));
+        i.setComponent(new ComponentName("org.commcare.dalvik.eCHIS.reminders",
+                "org.commcare.dalvik.eCHIS.reminders.CommCareReceiver"));
         c.sendBroadcast(i);
 
         // Broadcast to CommCare, there is the option to handle the permission required by the

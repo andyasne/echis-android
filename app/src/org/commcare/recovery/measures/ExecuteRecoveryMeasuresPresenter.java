@@ -18,7 +18,7 @@ import org.commcare.activities.PromptActivity;
 import org.commcare.activities.PromptApkUpdateActivity;
 import org.commcare.activities.PromptCCReinstallActivity;
 import org.commcare.activities.UpdateActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.engine.references.ArchiveFileRoot;
 import org.commcare.engine.resource.AppInstallStatus;
 import org.commcare.engine.resource.ResourceInstallUtils;

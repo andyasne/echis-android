@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.google.services.analytics.AnalyticsParamValue;
 import org.commcare.google.services.analytics.FirebaseAnalyticsUtil;
 import org.commcare.logic.DetailCalloutListenerDefaultImpl;
@@ -227,9 +227,9 @@ public class EntityDetailActivity
     }
 
     private void announceCaseSelect() {
-        Intent selectIntentBroadcast = new Intent("org.commcare.dalvik.api.action.case.selected");
+        Intent selectIntentBroadcast = new Intent("org.commcare.dalvik.eCHIS.api.action.case.selected");
         selectIntentBroadcast.putExtra("case_id", getIntent().getStringExtra(SessionFrame.STATE_DATUM_VAL));
-        sendBroadcast(selectIntentBroadcast, "org.commcare.dalvik.provider.cases.read");
+        sendBroadcast(selectIntentBroadcast, "org.commcare.dalvik.eCHIS.provider.cases.read");
     }
 
     @Override

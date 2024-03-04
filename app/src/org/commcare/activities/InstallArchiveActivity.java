@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.engine.references.ArchiveFileRoot;
 import org.commcare.preferences.HiddenPreferences;
 import org.commcare.tasks.UnZipTaskListener;

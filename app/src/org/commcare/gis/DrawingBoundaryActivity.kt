@@ -19,8 +19,8 @@ import io.ona.kujaku.manager.DrawingManager
 import io.ona.kujaku.views.KujakuMapView
 import org.commcare.activities.components.FormEntryInstanceState
 import org.commcare.android.javarosa.IntentCallout
-import org.commcare.dalvik.R
-import org.commcare.dalvik.databinding.ActivityDrawingBoundaryBinding
+import org.commcare.dalvik.eCHIS.R
+import org.commcare.dalvik.eCHIS.databinding.ActivityDrawingBoundaryBinding
 import org.commcare.gis.EntityMapUtils.parseBoundaryCoords
 import org.commcare.utils.FileUtil
 import org.commcare.utils.ImageType

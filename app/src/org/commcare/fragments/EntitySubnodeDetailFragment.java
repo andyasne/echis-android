@@ -12,7 +12,7 @@ import org.commcare.activities.CommCareActivity;
 import org.commcare.adapters.EntitySubnodeDetailAdapter;
 import org.commcare.cases.entity.Entity;
 import org.commcare.cases.entity.NodeEntityFactory;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.suite.model.Detail;
 import org.commcare.tasks.EntityLoaderListener;
 import org.commcare.tasks.EntityLoaderTask;

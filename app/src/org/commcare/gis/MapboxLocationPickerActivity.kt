@@ -27,8 +27,8 @@ import com.mapbox.mapboxsdk.plugins.annotation.SymbolOptions
 import io.ona.kujaku.views.KujakuMapView
 import org.commcare.activities.components.FormEntryConstants
 import org.commcare.activities.components.FormEntryDialogs
-import org.commcare.dalvik.R
-import org.commcare.dalvik.databinding.ActivityMapboxLocationPickerBinding
+import org.commcare.dalvik.eCHIS.R
+import org.commcare.dalvik.eCHIS.databinding.ActivityMapboxLocationPickerBinding
 import org.commcare.location.CommCareLocationController
 import org.commcare.location.CommCareLocationControllerFactory
 import org.commcare.location.CommCareLocationListener

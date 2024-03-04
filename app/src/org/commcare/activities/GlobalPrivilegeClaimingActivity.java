@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.google.zxing.BarcodeFormat;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.modern.util.Pair;
 import org.commcare.preferences.GlobalPrivilegesManager;
 import org.commcare.utils.GlobalConstants;

@@ -36,7 +36,7 @@ import org.commcare.android.javarosa.IntentCallout;
 import org.commcare.android.logging.ReportingUtils;
 import org.commcare.cases.entity.Entity;
 import org.commcare.cases.entity.NodeEntityFactory;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.ContainerFragment;
 import org.commcare.gis.EntityMapActivity;
 import org.commcare.gis.EntityMapboxActivity;

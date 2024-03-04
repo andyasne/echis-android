@@ -14,7 +14,7 @@ import androidx.test.filters.LargeTest
 import androidx.test.filters.SdkSuppress
 import org.commcare.activities.*
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.utils.CustomMatchers
 import org.commcare.utils.InstrumentationUtility
 import org.hamcrest.Matchers.startsWith

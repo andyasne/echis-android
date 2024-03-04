@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.android.database.app.models.UserKeyRecord;
 import org.commcare.views.ManagedUi;
 import org.commcare.views.UiElement;

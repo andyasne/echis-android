@@ -13,7 +13,7 @@ import android.widget.TextView;
 import org.commcare.activities.GeoPointActivity;
 import org.commcare.activities.GeoPointMapActivity;
 import org.commcare.activities.components.FormEntryConstants;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.gis.MapboxLocationPickerActivity;
 import org.commcare.logic.PendingCalloutInterface;
 import org.commcare.preferences.HiddenPreferences;

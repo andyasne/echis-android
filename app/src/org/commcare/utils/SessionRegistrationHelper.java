@@ -18,7 +18,7 @@ public class SessionRegistrationHelper {
     private static final String TAG = SessionRegistrationHelper.class.getSimpleName();
 
     public static final String USER_SESSION_EXPIRED =
-            "org.commcare.dalvik.application.user_session_expired";
+            "org.commcare.dalvik.eCHIS.application.user_session_expired";
 
     private static final IntentFilter expirationFilter =
             new IntentFilter(SessionRegistrationHelper.USER_SESSION_EXPIRED);

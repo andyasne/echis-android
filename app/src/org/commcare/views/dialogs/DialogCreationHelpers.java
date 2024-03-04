@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import org.commcare.AppUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.RuntimePermissionRequester;
 import org.commcare.utils.MarkupUtil;
 import org.commcare.utils.StringUtils;

@@ -33,7 +33,7 @@ import androidx.lifecycle.MutableLiveData;
 import org.commcare.CommCareApplication;
 import org.commcare.android.adapters.WiFiDirectUIController;
 import org.commcare.android.database.user.models.FormRecord;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.DeviceDetailFragment;
 import org.commcare.fragments.DeviceListFragment;
 import org.commcare.fragments.DeviceListFragment.DeviceActionListener;

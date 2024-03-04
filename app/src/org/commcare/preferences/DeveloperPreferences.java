@@ -22,8 +22,8 @@ import org.commcare.CommCareApp;
 import org.commcare.CommCareApplication;
 import org.commcare.activities.GlobalPrivilegeClaimingActivity;
 import org.commcare.android.database.user.models.FormRecord;
-import org.commcare.dalvik.BuildConfig;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.BuildConfig;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.CommCarePreferenceFragment;
 import org.javarosa.core.services.locale.Localization;
 

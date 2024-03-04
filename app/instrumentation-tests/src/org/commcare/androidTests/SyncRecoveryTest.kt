@@ -12,7 +12,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.provider.DebugControlsReceiver
 import org.commcare.utils.InstrumentationUtility
 import org.junit.After
@@ -31,7 +31,7 @@ class SyncRecoveryTest: BaseTest() {
     companion object {
         const val CCZ_NAME = "case_claim.ccz"
         const val APP_NAME = "Case Search and Claim"
-        const val RECOVER_SYNC_ACTION = "org.commcare.dalvik.api.action.TriggerSyncRecover"
+        const val RECOVER_SYNC_ACTION = "org.commcare.dalvik.eCHIS.api.action.TriggerSyncRecover"
     }
 
     @Before

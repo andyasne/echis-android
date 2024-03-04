@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 import org.commcare.CommCareApplication;
 import org.commcare.activities.RecoveryActivity;
 import org.commcare.android.logging.ForceCloseLogger;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.engine.resource.AppInstallStatus;
 import org.commcare.engine.resource.ResourceInstallUtils;
 import org.commcare.network.CommcareRequestGenerator;

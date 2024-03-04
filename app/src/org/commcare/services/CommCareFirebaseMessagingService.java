@@ -12,7 +12,7 @@ import com.google.firebase.messaging.RemoteMessage;
 
 import org.commcare.CommCareNoficationManager;
 import org.commcare.activities.DispatchActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.sync.FirebaseMessagingDataSyncer;
 import org.commcare.util.LogTypes;
 import org.commcare.utils.FirebaseMessagingUtil;

@@ -37,7 +37,7 @@ public class UserfacingErrorHandling<T extends AppCompatActivity & AlertDialogCo
      */
     public void createErrorDialog(final T activity, String errorMsg,
                                          final boolean shouldExit) {
-        String title = StringUtils.getStringRobust(activity, org.commcare.dalvik.R.string.error_occured);
+        String title = StringUtils.getStringRobust(activity, org.commcare.dalvik.eCHIS.R.string.error_occured);
         createErrorDialog(activity, errorMsg, title, shouldExit);
     }
 
@@ -63,7 +63,7 @@ public class UserfacingErrorHandling<T extends AppCompatActivity & AlertDialogCo
         factory.setOnCancelListener(cancelListener);
 
         CharSequence buttonDisplayText =
-                StringUtils.getStringSpannableRobust(activity, org.commcare.dalvik.R.string.ok);
+                StringUtils.getStringSpannableRobust(activity, org.commcare.dalvik.eCHIS.R.string.ok);
         DialogInterface.OnClickListener buttonListener =
                 (dialog, i) -> {
                     if (shouldExit) {

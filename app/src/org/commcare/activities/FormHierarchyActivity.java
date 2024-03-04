@@ -12,7 +12,7 @@ import org.commcare.utils.StringUtils;
 import org.commcare.views.dialogs.AlertDialogFragment;
 
 import org.commcare.adapters.HierarchyListAdapter;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.logging.XPathErrorLogger;
 import org.commcare.logic.FormHierarchyBuilder;
 import org.commcare.logic.HierarchyElement;

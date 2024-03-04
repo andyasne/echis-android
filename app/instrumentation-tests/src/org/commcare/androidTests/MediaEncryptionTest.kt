@@ -18,7 +18,7 @@ import junit.framework.TestCase.assertTrue
 import org.commcare.CommCareApplication
 import org.commcare.activities.components.FormEntryInstanceState
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.preferences.HiddenPreferences
 import org.commcare.utils.FileUtil
 import org.commcare.utils.InstrumentationUtility

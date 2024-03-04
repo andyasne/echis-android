@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import androidx.preference.EditTextPreference;
 import android.util.AttributeSet;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 public class FilePreference extends EditTextPreference {
 

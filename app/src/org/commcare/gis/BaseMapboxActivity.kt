@@ -8,7 +8,7 @@ import io.ona.kujaku.views.KujakuMapView
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import org.commcare.activities.CommCareActivity
-import org.commcare.dalvik.BuildConfig
+import org.commcare.dalvik.eCHIS.BuildConfig
 
 /**
  * Base class for Mapbox based map activites

@@ -187,7 +187,7 @@ public class IntentCallout implements Externalizable {
     }
 
     private boolean isPrintIntentCallout() {
-        return "org.commcare.dalvik.action.PRINT".equals(this.className);
+        return "org.commcare.dalvik.eCHIS.action.PRINT".equals(this.className);
     }
 
     private boolean intentInvalid(Intent intent) {

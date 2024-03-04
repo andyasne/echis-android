@@ -14,7 +14,7 @@ import org.commcare.preferences.DeveloperPreferences;
 
 /**
  * Receiver for the RefreshToLatestBuildAction broadcast. Trigger from command line with:
- *   adb shell am broadcast -a org.commcare.dalvik.api.action.RefreshToLatestBuildAction
+ *   adb shell am broadcast -a org.commcare.dalvik.eCHIS.api.action.RefreshToLatestBuildAction
  * or
  *   ./scripts/ccc update
  *

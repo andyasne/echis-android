@@ -2,7 +2,7 @@ package org.commcare.activities;
 
 import android.os.Bundle;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * UIController for running UpdateActivity without showing anything on the screen

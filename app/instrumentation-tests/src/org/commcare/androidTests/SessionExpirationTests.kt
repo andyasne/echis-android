@@ -11,12 +11,12 @@ import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.UiObject
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import androidx.test.uiautomator.Until
 import androidx.test.uiautomator.Until.findObject
 import junit.framework.Assert.assertNotNull
 import org.commcare.annotations.BrowserstackTests
-import org.commcare.dalvik.test.BuildConfig
+import org.commcare.dalvik.eCHIS.test.BuildConfig
 import org.commcare.utils.InstrumentationUtility
 import org.commcare.utils.isPresent
 import org.hamcrest.Matchers.*

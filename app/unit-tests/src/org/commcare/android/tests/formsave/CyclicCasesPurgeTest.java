@@ -10,7 +10,7 @@ import org.commcare.android.util.ActivityLaunchUtils;
 import org.commcare.android.util.TestAppInstaller;
 import org.commcare.android.util.TestUtils;
 import org.commcare.cases.util.InvalidCaseGraphException;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.engine.cases.CaseUtils;
 import org.commcare.models.AndroidSessionWrapper;
 import org.commcare.session.CommCareSession;

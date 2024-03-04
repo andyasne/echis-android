@@ -199,7 +199,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:768065119425:android:4e058a2bb3994794",
         "android_client_info": {
-          "package_name": "org.commcare.dalvik.debug"
+          "package_name": "org.commcare.dalvik.eCHIS.debug"
         }
       },
       "oauth_client": [

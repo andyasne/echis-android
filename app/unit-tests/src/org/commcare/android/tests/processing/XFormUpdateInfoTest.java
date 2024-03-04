@@ -11,7 +11,7 @@ import org.commcare.activities.FormEntryActivity;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import org.commcare.android.util.ActivityLaunchUtils;
 import org.commcare.android.util.TestAppInstaller;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.HiddenPreferences;
 import org.commcare.utils.AndroidCommCarePlatform;
 import org.commcare.utils.RobolectricUtil;

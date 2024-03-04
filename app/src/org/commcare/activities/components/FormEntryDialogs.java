@@ -15,7 +15,7 @@ import com.google.android.gms.common.api.ResolvableApiException;
 import org.commcare.activities.CommCareActivity;
 import org.commcare.activities.FormEntryActivity;
 import org.commcare.android.javarosa.PollSensorController;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.LocalePreferences;
 import org.commcare.utils.ChangeLocaleUtil;
 import org.commcare.utils.GeoUtils;

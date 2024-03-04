@@ -10,7 +10,7 @@ import com.mapbox.mapboxsdk.geometry.LatLng
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.util.LogTypes
 import org.commcare.utils.GeoUtils
 import org.commcare.utils.StringUtils

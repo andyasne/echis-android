@@ -2,7 +2,7 @@ package org.commcare.utils;
 
 import org.commcare.CommCareApplication;
 import org.commcare.android.logging.ReportingUtils;
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 /**

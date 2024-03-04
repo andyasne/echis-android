@@ -3,7 +3,7 @@ package org.commcare.android.adapters;
 import android.view.View;
 
 import org.commcare.activities.CommCareWiFiDirectActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.CommCareActivityUIController;
 import org.commcare.views.SquareButtonWithText;
 import org.javarosa.core.services.locale.Localization;

@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import org.commcare.activities.StandardHomeActivity;
 import org.commcare.activities.HomeButtons;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.views.CustomBanner;
 
 import java.util.ArrayList;

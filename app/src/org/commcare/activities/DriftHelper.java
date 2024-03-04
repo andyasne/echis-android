@@ -7,7 +7,7 @@ import androidx.preference.PreferenceManager;
 
 import org.commcare.CommCareApplication;
 import org.commcare.core.services.CommCarePreferenceManagerFactory;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.DeveloperPreferences;
 import org.commcare.preferences.PrefValues;
 import org.commcare.views.dialogs.StandardAlertDialog;

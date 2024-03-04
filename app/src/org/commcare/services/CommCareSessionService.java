@@ -22,7 +22,7 @@ import org.commcare.CommCareNoficationManager;
 import org.commcare.activities.DispatchActivity;
 import org.commcare.android.database.app.models.UserKeyRecord;
 import org.commcare.core.encryption.CryptUtil;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.heartbeat.HeartbeatLifecycleManager;
 import org.commcare.interfaces.FormSaveCallback;
 import org.commcare.models.database.user.DatabaseUserOpenHelper;
@@ -98,9 +98,9 @@ public class CommCareSessionService extends Service {
     private SQLiteDatabase userDatabase;
 
     // unique id for logged in notification
-    private final static int NOTIFICATION = org.commcare.dalvik.R.string.notificationtitle;
+    private final static int NOTIFICATION = org.commcare.dalvik.eCHIS.R.string.notificationtitle;
 
-    private final static int SUBMISSION_NOTIFICATION = org.commcare.dalvik.R.string.submission_notification_title;
+    private final static int SUBMISSION_NOTIFICATION = org.commcare.dalvik.eCHIS.R.string.submission_notification_title;
 
     // How long to wait until we force the session to finish logging out. Set
     // at 90 seconds to make sure huge forms on slow phones actually get saved
@@ -262,7 +262,7 @@ public class CommCareSessionService extends Service {
             Notification notification = new NotificationCompat.Builder(this, CommCareNoficationManager.NOTIFICATION_CHANNEL_USER_SESSION_ID)
                     .setContentTitle(this.getString(R.string.expirenotification))
                     .setContentText("Click here to log back into your session")
-                    .setSmallIcon(org.commcare.dalvik.R.drawable.notification)
+                    .setSmallIcon(org.commcare.dalvik.eCHIS.R.drawable.notification)
                     .setContentIntent(contentIntent)
                     .build();
 
@@ -308,7 +308,7 @@ public class CommCareSessionService extends Service {
                 Logger.log(LogTypes.TYPE_USER, "login|" + user.getUsername() + "|" + user.getUniqueId());
 
                 //Let anyone who is listening know!
-                Intent i = new Intent("org.commcare.dalvik.api.action.session.login");
+                Intent i = new Intent("org.commcare.dalvik.eCHIS.api.action.session.login");
                 this.sendBroadcast(i);
             }
 
@@ -461,7 +461,7 @@ public class CommCareSessionService extends Service {
             }
 
             // Let anyone who is listening know!
-            Intent i = new Intent("org.commcare.dalvik.api.action.session.logout");
+            Intent i = new Intent("org.commcare.dalvik.eCHIS.api.action.session.logout");
             this.sendBroadcast(i);
 
             Logger.log(LogTypes.TYPE_MAINTENANCE, "Logging out service login");
@@ -564,7 +564,7 @@ public class CommCareSessionService extends Service {
                         .setContentTitle(getString(notificationId))
                         .setContentInfo(getSubmittedFormCount(1, totalItems))
                         .setContentText("0b transmitted")
-                        .setSmallIcon(org.commcare.dalvik.R.drawable.notification)
+                        .setSmallIcon(org.commcare.dalvik.eCHIS.R.drawable.notification)
                         .setContentIntent(contentIntent)
                         .setOngoing(true)
                         .setWhen(System.currentTimeMillis())

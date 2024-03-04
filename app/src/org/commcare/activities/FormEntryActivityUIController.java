@@ -23,7 +23,7 @@ import org.commcare.activities.components.FormLayoutHelpers;
 import org.commcare.activities.components.FormNavigationController;
 import org.commcare.activities.components.FormNavigationUI;
 import org.commcare.activities.components.FormRelevancyUpdating;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.google.services.analytics.AnalyticsParamValue;
 import org.commcare.google.services.analytics.FirebaseAnalyticsUtil;
 import org.commcare.interfaces.CommCareActivityUIController;

@@ -15,7 +15,7 @@ import org.commcare.android.util.ActivityLaunchUtils;
 import org.commcare.android.util.CaseLoadUtils;
 import org.commcare.android.util.TestAppInstaller;
 import org.commcare.android.util.TestUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.AndroidSessionWrapper;
 import org.commcare.session.CommCareSession;
 import org.commcare.suite.model.Callout;

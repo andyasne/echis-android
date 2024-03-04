@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.utils.DotsData.DotsBox;
 import org.commcare.utils.DotsData.DotsDay;
 import org.commcare.utils.DotsData.MedStatus;

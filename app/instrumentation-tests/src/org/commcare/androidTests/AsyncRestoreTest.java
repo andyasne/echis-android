@@ -40,7 +40,7 @@ public class AsyncRestoreTest extends BaseTest {
 
     private final String CCZ_NAME = "integration_test_app.ccz";
     private final String APP_NAME = "Integration Tests";
-    private final String CLEAR_CACHE_ACTION = "org.commcare.dalvik.api.action.ClearCacheOnRestore";
+    private final String CLEAR_CACHE_ACTION = "org.commcare.dalvik.eCHIS.api.action.ClearCacheOnRestore";
     private Context mContext;
     private DebugControlsReceiver mReceiver = new DebugControlsReceiver();
 

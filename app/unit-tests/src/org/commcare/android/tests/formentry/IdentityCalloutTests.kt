@@ -22,7 +22,7 @@ import org.commcare.commcaresupportlibrary.identity.IdentityResponseBuilder
 import org.commcare.commcaresupportlibrary.identity.model.IdentificationMatch
 import org.commcare.commcaresupportlibrary.identity.model.MatchResult
 import org.commcare.commcaresupportlibrary.identity.model.MatchStrength
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.provider.IdentityCalloutHandler
 import org.junit.After
 import org.junit.Assert.assertArrayEquals

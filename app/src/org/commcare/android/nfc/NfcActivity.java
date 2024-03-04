@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.commcare.android.logging.ReportingUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.javarosa.core.services.Logger;
 import org.javarosa.core.services.locale.Localization;
 

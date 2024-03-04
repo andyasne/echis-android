@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import org.commcare.activities.CommCareActivity;
 import org.commcare.activities.EntitySelectActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.suite.model.Action;
 import org.commcare.suite.model.DisplayData;
 import org.commcare.utils.FileUtil;

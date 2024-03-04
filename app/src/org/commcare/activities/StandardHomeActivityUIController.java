@@ -9,7 +9,7 @@ import android.view.ViewTreeObserver;
 import org.commcare.CommCareApp;
 import org.commcare.CommCareApplication;
 import org.commcare.adapters.HomeScreenAdapter;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.CommCareActivityUIController;
 import org.commcare.preferences.HiddenPreferences;
 import org.commcare.preferences.DeveloperPreferences;

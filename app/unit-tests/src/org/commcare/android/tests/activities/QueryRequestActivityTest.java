@@ -22,7 +22,7 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import org.commcare.android.mocks.ModernHttpRequesterMock;
 import org.commcare.android.util.TestAppInstaller;
 import org.commcare.core.parse.ParseUtils;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.AndroidSessionWrapper;
 import org.commcare.models.database.AndroidSandbox;
 import org.commcare.session.CommCareSession;

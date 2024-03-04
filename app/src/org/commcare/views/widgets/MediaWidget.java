@@ -14,7 +14,7 @@ import android.widget.Toast;
 import org.commcare.CommCareApplication;
 import org.commcare.activities.FormEntryActivity;
 import org.commcare.activities.components.FormEntryInstanceState;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.logic.PendingCalloutInterface;
 import org.commcare.models.encryption.EncryptionIO;
 import org.commcare.preferences.HiddenPreferences;

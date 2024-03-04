@@ -22,7 +22,7 @@ import org.commcare.activities.CommCareSetupActivity;
 import org.commcare.activities.FormRecordListActivity;
 import org.commcare.cases.entity.Entity;
 import org.commcare.cases.entity.NodeEntityFactory;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.models.AndroidSessionWrapper;
 import org.commcare.preferences.DeveloperPreferences;
 import org.commcare.session.CommCareSession;

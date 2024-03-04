@@ -21,7 +21,7 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.utils.DotsData;
 import org.commcare.utils.DotsData.DotsBox;
 import org.commcare.utils.DotsData.DotsDay;

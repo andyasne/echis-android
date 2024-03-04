@@ -16,7 +16,7 @@ import org.commcare.adapters.ListItemViewModifier;
 import org.commcare.cases.entity.Entity;
 import org.commcare.cases.entity.EntityUtil;
 import org.commcare.cases.entity.NodeEntityFactory;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.interfaces.ModifiableEntityDetailAdapter;
 import org.commcare.models.AndroidSessionWrapper;
 import org.commcare.suite.model.Detail;

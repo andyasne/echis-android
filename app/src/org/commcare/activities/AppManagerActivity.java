@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import org.commcare.CommCareApplication;
 import org.commcare.adapters.AppManagerAdapter;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.google.services.analytics.AnalyticsParamValue;
 import org.commcare.google.services.analytics.FirebaseAnalyticsUtil;
 import org.commcare.preferences.AppManagerDeveloperPreferences;

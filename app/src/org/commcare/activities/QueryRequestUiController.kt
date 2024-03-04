@@ -11,7 +11,7 @@ import android.widget.*
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.util.Pair
 import com.google.android.material.datepicker.MaterialDatePicker
-import org.commcare.dalvik.R
+import org.commcare.dalvik.eCHIS.R
 import org.commcare.interfaces.CommCareActivityUIController
 import org.commcare.session.RemoteQuerySessionManager
 import org.commcare.session.RemoteQuerySessionManager.extractMultipleChoices

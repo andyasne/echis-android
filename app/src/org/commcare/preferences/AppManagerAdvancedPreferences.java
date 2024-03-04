@@ -5,7 +5,7 @@ import android.content.Intent;
 import org.commcare.CommCareApplication;
 import org.commcare.activities.CommCarePreferenceActivity;
 import org.commcare.activities.DataChangeLogsActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.fragments.CommCarePreferenceFragment;
 import org.commcare.google.services.analytics.AnalyticsParamValue;
 import org.commcare.google.services.analytics.FirebaseAnalyticsUtil;

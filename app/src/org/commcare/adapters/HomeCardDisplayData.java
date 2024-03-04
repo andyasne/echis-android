@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.View;
 
 import org.commcare.activities.HomeButtons;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 
 /**
  * Holds data for displaying home screen buttons

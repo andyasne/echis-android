@@ -132,7 +132,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="org.commcare.dalvik.action.CommCareSession"/>
+                <action android:name="org.commcare.dalvik.eCHIS.action.CommCareSession"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -201,7 +201,7 @@
             android:exported="false"
             android:name="org.commcare.activities.DotsEntryActivity">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.action.DotsEntry"/>
+                <action android:name="org.commcare.dalvik.eCHIS.action.DotsEntry"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -340,7 +340,7 @@
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.action.DrawBoundary"/>
+                <action android:name="org.commcare.dalvik.eCHIS.action.DrawBoundary"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -384,7 +384,7 @@
             android:exported="true"
             android:name="org.commcare.activities.KeyAccessRequestActivity">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.action.CommCareKeyAccessRequest"/>
+                <action android:name="org.commcare.dalvik.eCHIS.action.CommCareKeyAccessRequest"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -412,7 +412,7 @@
             android:name="org.commcare.provider.ExternalApiReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.ExternalAction"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.ExternalAction"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </receiver>
@@ -420,9 +420,9 @@
         <receiver
             android:exported="true"
             android:name="org.commcare.provider.CommCareLogoutReceiver"
-            android:permission="org.commcare.dalvik.permission.COMMCARE_LOGOUT">
+            android:permission="org.commcare.dalvik.eCHIS.permission.COMMCARE_LOGOUT">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.CommCareLogoutAction"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.CommCareLogoutAction"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </receiver>
@@ -431,7 +431,7 @@
             android:name="org.commcare.provider.RefreshToLatestBuildReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.RefreshToLatestBuildAction"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.RefreshToLatestBuildAction"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -440,32 +440,32 @@
             android:name="org.commcare.provider.DebugControlsReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.SessionCaptureAction"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.SessionCaptureAction"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.UninstallApp"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.UninstallApp"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.LoginWithCreds"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.LoginWithCreds"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.TriggerSyncRecover"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.TriggerSyncRecover"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.ClearCacheOnRestore"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.ClearCacheOnRestore"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="org.commcare.dalvik.api.action.ExpireUserKeyRecord"/>
+                <action android:name="org.commcare.dalvik.eCHIS.api.action.ExpireUserKeyRecord"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -497,7 +497,7 @@
             android:exported="false"
             android:theme="@style/Theme.Dialog.NoTitle">
             <intent-filter>
-                <action android:name="org.commcare.dalvik.action.PRINT"/>
+                <action android:name="org.commcare.dalvik.eCHIS.action.PRINT"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>

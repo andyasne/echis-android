@@ -8,7 +8,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
 
-import org.commcare.dalvik.BuildConfig;
+import org.commcare.dalvik.eCHIS.BuildConfig;
 import org.commcare.google.services.analytics.FirebaseAnalyticsUtil;
 import org.commcare.core.graph.model.GraphData;
 import org.commcare.core.graph.util.GraphUtil;

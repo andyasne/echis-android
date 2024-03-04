@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import org.commcare.activities.CommCareActivity;
 import org.commcare.activities.FormEntryActivity;
-import org.commcare.dalvik.R;
+import org.commcare.dalvik.eCHIS.R;
 import org.commcare.preferences.FormEntryPreferences;
 
 import androidx.appcompat.app.AppCompatActivity;
