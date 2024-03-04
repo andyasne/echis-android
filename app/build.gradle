@@ -454,7 +454,7 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
-            def applicationId = "org.commcare.dalvik.debug"
+            def applicationId = "org.commcare.dalvik.echis.debug"
             project.ext.COMMCARE_APP_ID = applicationId
             def applicationName = "eCHIS"
             resValue "string", "application_name", applicationName
