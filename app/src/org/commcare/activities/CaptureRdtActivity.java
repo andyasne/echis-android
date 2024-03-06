@@ -70,6 +70,7 @@ public class CaptureRdtActivity extends AppCompatActivity {
 
                 arguments.putBoolean(CaptureFragment.IncludeTestAreaImage, true);
                 arguments.putBoolean(CaptureFragment.ReturnInterpretedImage, true);
+                arguments.putBoolean(CaptureFragment.UseLocal, true);
 
                 fragment.setArguments(arguments);
             }
